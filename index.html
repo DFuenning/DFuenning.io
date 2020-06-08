@@ -20,27 +20,24 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" id="spy">
+    <nav class="navbar navbar-expand-lg navbar-dark w-100">
         <div class="container">
-            <button class="navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="col-md-12 collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" id="largeText" href="index.html">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
+            <div class="navbar-collapse collapse" id="navbar10">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" id="largeText" href="#aboutMe">About Me</a>
+                        <a class="nav-link" href="#personal">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" id="largeText" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#gallery">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" id="largeText" href="contact.html">Contact Me</a>
+                        <a class="nav-link" href="contact.html">Contact Me!</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-md-6" id="headshot">
-                    <img src="./images/portfolio/headshot.png" alt="headshot" class="headshot"
+                    <img src="./images/portfolio/softedge.png" alt="headshot" class="headshot"
                         style="padding: -200px 0 200px 700px;">
                 </div>
             </div>
@@ -84,7 +81,7 @@
                 <div class="row" id="left">
                     <div class="col-md-8">
                         <h2 class="mb-5">Full Stack <span class="enhance">Developer</span></h2>
-                        <p id="largeText">I am a full stack developer in training at <strong>Case Western Reserve
+                        <p id="largeText">Currently studying full stack development at <strong>Case Western Reserve
                                 University.</strong>
                             It has only been a few short months, but I am well on my way to realizing my dreams of being
                             a developer!<br> <br>I hope that you enjoy my
@@ -123,7 +120,7 @@
 
         <div class="port-intro" id="gallery">
             <h1 id="portfolio">My <span class="enhance">Works</span></h1>
-            <h5>Here are some of my works so far. Click the link below to visit my GitHub</h5>
+            <h5>Here are SOME of my works to date. Click the link below to visit my GitHub repos for more!</h5>
             <br>
             <a class="github-button" href="https://github.com/DFuenning" data-size="large"
                 aria-label="Follow @ntkme on GitHub">Follow @DFuenning</a>
@@ -131,59 +128,78 @@
         <div class="container img-gallery">
             <div class="gallery">
                 <figure id="border" class="gallery__item gallery__item--1">
-                    <img src="images/portfolio/original.PNG" alt="Gallery image 1" class="gallery__img">
+                   <img src="images/portfolio/workingGIF.gif" alt="Gallery image 1" class="gallery__img">
                     <div class="overlay">
+                        <a href="https://github.com/DFuenning/ReadMe_Generator" targer="_blank" style="text-decoration: none; color: black;">
                         <div id="text">
-                            <h3>Under Construction!</h3>
-                            <!-- <p>Click on another image.</p> -->
+                            <h3>ReadMe Generator</h3>
+                            <p>Node.js & Express</p>
+                        </a>
                         </div>
                     </div>
                 </figure>
                 <figure id="border" class="gallery__item gallery__item--2">
                     <img src="images/portfolio/eatdaburger.PNG" alt="Gallery image 2" class="gallery__img">
                     <div class="overlay">
+                        <a href="https://dry-reef-25286.herokuapp.com/burgers" targer="_blank" style="text-decoration: none; color: black;">
                         <div id="text">
-                            <h3>Burger Creation App</h3>
+                            <h3 style="font-size: 1rem;">Burger Creation App</h3>
+                            <p>Handlebars, MySQL, JawsDB, Node.js, & Express</p>
+
+                            </a>
                             <!-- <p>Create a burger, and devour it! Using MySQL</p> -->
                         </div>
                     </div>
                 </figure>
                 <figure id="border" class="gallery__item gallery__item--3">
-                    <img src="images/portfolio/Capture.PNG" alt="Gallery image 3" class="gallery__img">
+                    <img src="images/portfolio/Capture.PNG" alt="Gallery image 3" class="gallery__img">        
                     <div class="overlayOne">
+                        <a href="https://dfuenning.github.io/Brewery-App/" targer="_blank" style="text-decoration: none; color: black;">
                         <div class="textOne">
                             <h1>Brewery Finder App</h1>
-                            <!-- <p> A site created to locate breweries around the US based on the users
-                                chosen location. <br> Drink Up! </p> -->
+                            <p>HTML, CSS, JavaScript, and Ajax</p>
+
+                            </a>
+                            
                         </div>
                     </div>
                 </figure>
                 <figure id="border" class="gallery__item gallery__item--4">
                     <img src="images/portfolio/weather.png" alt="Gallery image 4" class="gallery__img">
                     <div class="overlayTwo">
+                        <a href="https://github.com/DFuenning/WeatherApp" targer="_blank" style="text-decoration: none; color: black;">
                         <div class="textTwo">
                             <h1>Weather Dashboard App</h1>
-                            <!-- <p> OpenWeatherAPI to get the current forecast of your
-                                chosen city.</p> -->
+                            <p>HTML, CSS, JavaScript, and Ajax</p>
+
+                            </a>
                         </div>
                     </div>
 
                 </figure>
+                
                 <figure id="border" class="gallery__item gallery__item--5">
                     <img src="images/portfolio/planner.PNG" alt="Gallery image 5" class="gallery__img">
                     <div class="overlayThree">
+                        <a href="https://dfuenning.github.io/Daily-Planner/" targer="_blank" style="text-decoration: none; color: black;">
                         <div class="textThree">
+
                             <h1>Daily Planner App</h1>
+                            <p>HTML, CSS, JavaScript, and JSON</p>
+                        </a>
                             <!-- <p>Helping you schedule out your entire day and stay on track!</p> -->
                         </div>
                     </div>
-
                 </figure>
+                </a>
                 <figure id="border" class="gallery__item gallery__item--6">
-                    <img src="images/portfolio/workingGIF.gif" alt="Gallery image 6" class="gallery__img">
+                    <img src="images/portfolio/crimemap.PNG" alt="Gallery image 6" class="gallery__img">
                     <div class="overlayFour">
+                        <a href="https://github.com/DFuenning/Chicago-Crime-Mapping" targer="_blank" style="text-decoration: none; color: black;">
                         <div class="textFour">
-                            <h1>README Generator</h1>
+                            <h1 class="text-black">Crime Mapping App</h1>
+                            <p>Handlebars, MySQL, JawsDB, Node.js, & Express</p>
+                        </a>
                             <!-- <p>Using Node and Axios, to create a dynamic README document to attach
                                 to your repositories.</p> -->
                         </div>
